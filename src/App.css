@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:not(#terms) {
+    color: white;
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgb(22, 22, 22);
+    border-bottom: 1px solid #eee;
+    border-radius: 5px;
+}
+form {
+    display: grid;
+    place-content: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-size: 1.3rem;
+}
+#terms {
+    margin-right: 10px;
+}
+.input-div {
+    margin: 7px;
+}
+button {
+    outline: none;
+    background-color: rgb(239, 239, 16);
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+.register-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.input-error {
+    font-size: small;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    color: red;
+}
